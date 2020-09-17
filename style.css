@@ -1,0 +1,36 @@
+/*INDEX*/
+.title-custom{
+    text-align: center !important; 
+    margin-top: 50px !important;
+}
+
+.container-custom{
+    margin-top: 80px !important;
+    width:500px !important;
+}
+
+
+/*PESQUISAR->CLIMA PRINCIPAL*/
+.pesquisar-principal{
+    margin-top: 50px !important; 
+    text-align:center !important;
+}
+
+/*PESQUISAR->DIAS*/
+.pesquisar-dias{
+    margin-top: 30px !important; 
+    width: 700px !important; 
+    text-align: center !important; 
+    background-color: #1089CD !important; 
+    color:white !important; 
+    border-radius: 5px !important;
+}
+
+/*DIV FOR*/
+.marg{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+}

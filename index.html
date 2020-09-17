@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container title-custom">
+    <h1>CLIMA TEMPO</h1>
+  </div>
+    <div class="container container-custom">
+    <form  action="pesquisar.php" method="post">
+        <div class="form-group">
+          <label>Cidade</label>
+          <input type="text" class="form-control" name="cidade">
+        </div>
+        <div class="form-group">
+          <label>Estado</label>
+          <input type="text" class="form-control" name="estado" >
+        </div>
+        <div style="text-align: center;">ou</div>
+        <div class="form-group">
+          <label>CEP</label>
+          <input type="text" class="form-control" name="cep" >
+        </div>
+        <button type="submit" class="btn btn-primary">Pesquisar</button>
+      </form>
+    </div>
+</body>
+</html>
